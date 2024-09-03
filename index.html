@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .container{
+            border: 1px solid black;
+            height: 550px;
+            width: 80%;
+            background: linear-gradient(135deg, rgba(255, 217, 0, 0.658) 40%, cyan);
+        }
+        .que{
+            border: 1px solid black;
+            font-family: monospace;
+            color: rgb(107, 2, 2);
+            font-weight: bolder;
+            font-size: x-large;
+            text-align: center;
+            
+
+        }
+        .ans{
+            border: 1px solid black;
+            text-align: justify;
+
+
+        }
+        span{
+            position:absolute;
+            right:170px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>FAQ</h1>
+    <div class="container">
+        <div class="que">
+            What is web?
+            <span id="add">+</span>
+            <div class="ans">
+                <p>The World Wide Web is an information system that enables content sharing over the Internet through user-friendly ways meant to appeal to users beyond IT specialists and hobbyists.</p>
+
+            </div>
+        </div>
+        <br>
+        <div class="que">
+            what is CSS?
+            <span id="add">+</span>
+            <div class="ans">
+                <p>Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</p>
+
+            </div>
+        </div>
+
+        <br>
+        <div class="que">
+            What is HTML?
+            <span id="add">+</span>
+            <div class="ans">
+                <p>HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript</p>
+
+            </div>
+        </div>
+
+        <br>
+        <div class="que">
+            What is JS?
+            <span id="add">+</span>
+            <div class="ans">
+                <p>JavaScript, often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior. Web browsers have a dedicated JavaScript engine that executes the client code.</p>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
